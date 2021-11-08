@@ -5,14 +5,12 @@ import id.godohembon.themoviedb.data.dto.DetailMovieResponseDto
 import id.godohembon.themoviedb.data.dto.movie.MovieResponseDto
 import id.godohembon.themoviedb.data.dto.review.ReviewResponseDto
 import id.godohembon.themoviedb.data.service.MovieService
-import id.godohembon.themoviedb.domain.mapper.ReviewMapper
 import id.godohembon.themoviedb.domain.model.DetailMovieModel
 import id.godohembon.themoviedb.domain.model.MovieModel
 import id.godohembon.themoviedb.domain.model.Review
 import id.godohembon.themoviedb.utils.Mapper
 import id.godohembon.themoviedb.utils.ResourceState
 import id.godohembon.themoviedb.utils.safeApiCall
-import retrofit2.Response
 import javax.inject.Inject
 
 class MovieRepositoryImpl @Inject constructor(

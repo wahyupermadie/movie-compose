@@ -24,7 +24,6 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import id.godohembon.themoviedb.domain.model.MovieModel
 import id.godohembon.themoviedb.presentation.screen.MainViewModel
 import id.godohembon.themoviedb.presentation.ui.component.home_component.MovieComponent
 import id.godohembon.themoviedb.presentation.ui.theme.Purple500

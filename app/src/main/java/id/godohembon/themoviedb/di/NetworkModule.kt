@@ -1,7 +1,6 @@
 package id.godohembon.themoviedb.di
 
 import android.app.Application
-import android.graphics.Movie
 import com.readystatesoftware.chuck.ChuckInterceptor
 import dagger.Module
 import dagger.Provides
@@ -9,7 +8,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import id.godohembon.themoviedb.BuildConfig
 import id.godohembon.themoviedb.data.service.MovieService
-import okhttp3.Cache
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
